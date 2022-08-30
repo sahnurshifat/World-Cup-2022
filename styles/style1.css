@@ -48,3 +48,86 @@
 }
 
 /*------- topsectionended --------*/
+
+/*------ midsectionstarted -------*/
+
+.mid-section {
+    margin-top: 100px;
+    display: flex;
+}
+
+.button-box {
+    background-color: black;
+    height: 200px;
+    width: 250px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button a {
+    display: inline-block;
+    height: 20px;
+    width: 150px;
+    text-decoration: none;
+    background-color: white;
+    font-weight: 700;
+    color: black;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.button>a:hover {
+    background-color: red;
+    color: white;
+}
+
+.matches {
+    flex-grow: 1;
+}
+
+.all-match {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.blog {
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: #d9d9d9 0px 0px 40px;
+}
+
+.blog img {
+    width: 100%;
+}
+
+.blog-des {
+    margin: 10px 10px 10px 20px;
+}
+
+button:hover {
+    color: red;
+    font-weight: 700;
+}
+
+.fa-clock {
+    margin: 10px 10px 20px 20px;
+}
+
+.fa-message {
+    margin: 10px 10px 20px 10px;
+}
+
+/*------ midsection ended -------*/
+
+/*------ footer started -------*/
