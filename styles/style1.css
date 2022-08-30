@@ -16,6 +16,11 @@
     width: 50%;
 }
 
+.top-banner img:hover {
+    transition: 1s;
+    transform: scale(1.1, 1.1);
+}
+
 .head-line {
     margin: 100px 20px 0 50px;
     color: white;
