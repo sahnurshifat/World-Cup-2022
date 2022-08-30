@@ -1,7 +1,6 @@
 /*------ mostused -------*/
 * {
     margin: 0;
-    /* font-family: 'Playfair Display', serif; */
     font-family: 'Poppins', sans-serif;
 }
 
@@ -131,3 +130,36 @@ button:hover {
 /*------ midsection ended -------*/
 
 /*------ footer started -------*/
+
+.footer {
+    background-color: black;
+    margin-top: 50px;
+}
+
+.goal {
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+}
+
+hr {
+    border: 1px solid gray;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.f-items {
+    padding: 30px 10px;
+    text-align: center;
+}
+
+.f-items a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: lightgray;
+}
