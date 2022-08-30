@@ -103,6 +103,7 @@
 
 .blog {
     background-color: white;
+    width: 250px;
     border-radius: 10px;
     margin-bottom: 30px;
     box-shadow: #d9d9d9 0px 0px 40px;
@@ -110,6 +111,11 @@
 
 .blog img {
     width: 100%;
+}
+
+.blog-img {
+    display: flex;
+    padding: 20px;
 }
 
 .blog-des {
