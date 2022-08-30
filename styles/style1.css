@@ -9,6 +9,7 @@
     display: flex;
     background-image: linear-gradient(to right, indigo, purple);
     border-radius: 10px;
+    margin: 0 20px;
 }
 
 .top-banner {
@@ -51,8 +52,9 @@
 /*------ midsectionstarted -------*/
 
 .mid-section {
-    margin-top: 100px;
+    margin: 100px 20px 0 20px;
     display: flex;
+
 }
 
 .button-box {
@@ -127,6 +129,23 @@ button:hover {
     margin: 10px 10px 20px 10px;
 }
 
+.view {
+    display: flex;
+    justify-content: center;
+    visibility: hidden;
+}
+
+.view a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 10px 30px;
+    margin-left: 50px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
 /*------ midsection ended -------*/
 
 /*------ footer started -------*/
@@ -163,3 +182,95 @@ hr {
     text-decoration: none;
     color: lightgray;
 }
+
+/*------- mediaquery started -----*/
+
+/*----------- mediaquery for mobile -----------*/
+@media screen and (max-width:576px) {
+    .top-section {
+        flex-direction: column;
+        margin: 0 10px;
+    }
+
+    .top-banner {
+        width: 100%;
+    }
+
+    .head-line {
+        margin: 0;
+        padding: 20px 20px;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .top-des {
+        margin-right: 50px;
+        padding: 0 20px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .top-banner a {
+        display: inline-block;
+        text-decoration: none;
+        background-color: red;
+        color: white;
+        padding: 5px 15px;
+        margin: 20px 0 20px 100px;
+        border-radius: 5px;
+    }
+
+    .mid-section {
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .button-box {
+        background-color: white;
+        height: 100%;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .button {
+        width: 100%;
+    }
+
+    .button a {
+        border: 1px solid gray;
+        background-color: white;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .button>a:hover {
+        background-color: red;
+        color: white;
+        font-weight: 700;
+    }
+
+    .all-match {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 10px;
+    }
+
+
+    .goal {
+        color: lightgray;
+        font-size: 20px;
+    }
+
+    hr {
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    .f-items {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+/*----------- mediaqueryfortablet -----------*/
