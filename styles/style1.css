@@ -273,4 +273,84 @@ hr {
 
 }
 
-/*----------- mediaqueryfortablet -----------*/
+/*----------- mediaquery for mobile ended -----------*/
+
+/*----------- mediaquery for tablet -----------*/
+
+@media screen and (min-width:577px) and (max-width: 992px) {
+    .top-section {
+        display: flex;
+    }
+
+    .top-banner {
+        width: 50%;
+    }
+
+    .top-banner img {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .head-line {
+        margin-top: 0;
+        margin-left: 10px;
+        padding: 20px;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .top-des {
+        margin-bottom: 50px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .mid-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .button-box {
+        background-color: white;
+        height: 100%;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .button {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .button a {
+        border: 1px solid gray;
+        background-color: white;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .button>a:hover {
+        background-color: red;
+        color: white;
+        font-weight: 700;
+    }
+
+    .all-match {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .bluff {
+        display: none;
+    }
+
+    .view {
+        visibility: visible;
+    }
+
+    .goal {
+        font-size: 20px;
+    }
+}
