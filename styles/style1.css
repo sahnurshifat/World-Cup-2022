@@ -1,0 +1,50 @@
+/*------ mostused -------*/
+* {
+    margin: 0;
+    /* font-family: 'Playfair Display', serif; */
+    font-family: 'Poppins', sans-serif;
+}
+
+/*--------- top section ---------*/
+.top-section {
+    display: flex;
+    background-image: linear-gradient(to right, indigo, purple);
+    border-radius: 10px;
+}
+
+.top-banner {
+    width: 50%;
+}
+
+.head-line {
+    margin: 100px 20px 0 50px;
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.top-des {
+    margin-left: 50px;
+    color: white;
+}
+
+.top-banner a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 10px 30px;
+    margin-left: 50px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.fa-angle-right {
+    padding-left: 10px;
+}
+
+.top-banner img {
+    width: 100%;
+}
+
+/*------- topsectionended --------*/
